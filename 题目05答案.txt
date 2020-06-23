@@ -1,0 +1,4 @@
+function test(arr){
+var newarr = arr.toString().split(',');
+return newarr;
+}

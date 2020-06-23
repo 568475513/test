@@ -1,0 +1,9 @@
+function test(url){
+var obj = {};
+var reg = new RegExp(/(\w+):\/\/([^/:]+)(:\d*)?/);
+var result = url.match(reg);
+obj.xieyi = result[0];
+obj.yumin= result[2];
+obj.duankou = result[3];
+return obj;
+}

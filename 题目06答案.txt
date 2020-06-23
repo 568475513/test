@@ -1,0 +1,10 @@
+function test(str){
+var strlen = parseInt(str.length/2);
+for(var i=0;i<strlen;i++){
+    var num=0;
+    if(str.charAt(str.length – (1+num))!=str.charAt(num)){
+        return false;
+    }
+}
+return true;
+}
